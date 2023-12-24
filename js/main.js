@@ -358,25 +358,16 @@
     * ------------------------------------------------------ */
     const ssLightbox = function() {
 
-        // video lightbox
-        const videoLightbox = function() {
+        
+       
 
-            const videoLink = document.querySelector('.s-intro__content-video-btn');
-            if (!videoLink) return;
-    
-            videoLink.addEventListener('click', function(event) {
-    
-                const vLink = this.getAttribute('href');
-                const iframe = "<iframe src='" + vLink + "' frameborder='0'></iframe>";
-    
-                event.preventDefault();
-    
-                const instance = basicLightbox.create(iframe);
-                instance.show()
-    
-            });
-    
+            
+        const showLogo = function() {
+            setTimeout(function() {
+                document.querySelector('.s-intro__logo').classList.add('show');
+            }, 1000); // Adjust the delay as needed
         };
+        
 
         // portfolio lightbox
         const folioLightbox = function() {
@@ -411,8 +402,8 @@
             });
     
         };
-
-        videoLightbox();
+        setTimeout(showLogo, 2000);
+    
         folioLightbox();
 
     }; // ssLightbox
