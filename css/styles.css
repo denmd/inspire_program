@@ -3242,6 +3242,40 @@ img.u-pull-left {
     transform : rotate(-45deg);
 }
 
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 144, 18);
+    color            : transparent;
+   
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.register_btn{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color:transparent;
+    border-color: #020202;
+  
+    border-width: 2px;
+   border-style: solid;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.register_btn:hover{
+    border-color: #7d7a7a;
+    color: rgb(239, 160, 43);
+}
+
+.button-link:hover {
+    background-color: rgb(214, 138, 52);
+    color: black;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * site-header
