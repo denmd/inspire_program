@@ -3484,7 +3484,8 @@ img.u-pull-left {
     background-image    : url(../images/inspireposter.jpg);
     background-repeat   : no-repeat;
     background-position : center;
-    background-size     :75vh;
+    background-size     :cover;
+    width               :500px;
 
     position            : absolute;
     top                 : var(--content-padding-top);
