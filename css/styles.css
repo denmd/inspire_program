@@ -3524,12 +3524,12 @@ img.u-pull-left {
     
 }
     .s-intro__logo {
-        width: 90px; /* Adjust the width as needed */
+        width: 120px; /* Adjust the width as needed */
         height: auto; /* To maintain the aspect ratio */
         position: absolute;
-        top: 170px;
+        top: 186px;
         left: -10px;
-        opacity: 0; 
+        opacity: 0.0005; 
         transition:  opacity 3s ease ; 
     }
     .s-intro__logo.show {
